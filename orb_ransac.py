@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 from matplotlib import pyplot as plt
 
-MIN_MATCH_COUNT = 10
+MIN_MATCH_COUNT = 10 #Number of minimum required feature points
 good_match_rate = 0.15
 
 img1 = cv2.imread('./image1.png',0) # queryImage
