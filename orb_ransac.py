@@ -5,8 +5,8 @@ from matplotlib import pyplot as plt
 MIN_MATCH_COUNT = 10
 good_match_rate = 0.15
 
-img1 = cv2.imread('./2019/0520/kekka-ab.png',0) # queryImage
-img2 = cv2.imread('./2019/0520/ab.png',0) # trainImage
+img1 = cv2.imread('./image1.png',0) # queryImage
+img2 = cv2.imread('./image2.png',0) # trainImage
  
 # Initiate ORB detector
 orb = cv2.ORB_create()
